@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.item_data {
+  font-size: 10px;
+}
+
+.item_button {
+  padding: 5px;
+  font-size: 10px;
+}
+
+.item_button:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+.item_button:focus {
+  outline-style: none;
+  box-shadow: 0px 0px 10px -1px rgba(146, 146, 146, 0.7);
+}
